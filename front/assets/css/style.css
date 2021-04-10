@@ -1,3 +1,19 @@
 body {
     background-color: rgb(184, 184, 184);
 }
+.nav__1{
+    background-color:black;
+}
+.nav__1 h1{
+    display: inline;
+    color:white ;
+}
+.nav__1 input{
+    display: inline;
+    margin-right: 10px;
+    margin-left: 55%;
+    padding: 6px;
+    }
+.nav__1 img{
+    
+}
