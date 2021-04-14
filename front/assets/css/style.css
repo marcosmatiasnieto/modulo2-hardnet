@@ -42,6 +42,28 @@ margin-right: 10px;
     background-color: rgb(255, 255, 255);
     padding: 5px ;
 }
-.mySlides img{
+.display__container img{
+margin: auto;
+
+
+}
+.mySlides {
     width: 100%;
+    display: none;
+}
+.w3-black{
+    color: white;
+    background-color: black;
+}
+.w3-display-left{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%-50%);
+}
+.w3-display-right{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%-50%);
 }
