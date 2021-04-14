@@ -51,17 +51,19 @@ margin: auto;
     width: 100%;
     display: none;
 }
-.w3-black{
+.button_black{
     color: white;
     background-color: black;
 }
-.w3-display-left{
+.display__left{
+    padding: 15px;
     position: absolute;
     top: 50%;
     left: 0%;
     transform: translate(0%-50%);
 }
-.w3-display-right{
+.display__right{
+    padding: 15px;
     position: absolute;
     top: 50%;
     right: 0%;
