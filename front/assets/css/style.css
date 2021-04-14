@@ -72,8 +72,28 @@ margin: auto;
 .titulo__2{
     display: inline-block;
     margin-top: 10px;
-    margin-left: 50%;
+    margin-left: 45%;
+    margin-bottom:10px;
     background-color:#494848;
     border-radius: 5px;
     padding: 5px;
+    text-align: center;
+}
+.conteiner_foto{
+    margin-left: 6% ;
+    padding: 10px;
+}
+.contenedor__1{
+    display: inline-block;
+    border: white solid;
+}
+.contenedor__2{
+    display: inline-block;
+    border: white solid;
+   
+}
+.contenedor__3{
+    display: inline-block;
+    border: white solid;
+   
 }
