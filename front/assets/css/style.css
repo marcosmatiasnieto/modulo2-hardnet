@@ -15,22 +15,39 @@ body {
     margin-left: 60%;
     padding: 6px;
     }
-.nav__2{
-    background-color: rgb(116, 116, 116);
+#nav__2{
+    background-color: rgb(94, 93, 93);
     padding: 5px;
+    border :#ffffff solid;
 }
-.nav__2 a{
-    text-decoration: none;
-color: rgb(79, 169, 248);
-margin-left: 10px; 
-margin-right: 10px;
+#opcion{
+ display: inline-block;
 }
-.nav__2:hover > a{
+#links{
+    display: inline-block;
+    color: #659cee;
     text-decoration: none;
+}
+
+#link1 :hover  {
 color: rgb(236, 244, 252);
 margin-left: 10px; 
 margin-right: 10px;
 }
+#link2 :hover {
+
+color: rgb(236, 244, 252);
+margin-left: 10px; 
+margin-right: 10px;
+}
+#link3 :hover {
+    
+color: rgb(236, 244, 252);
+margin-left: 10px; 
+margin-right: 10px;
+}
+
+
 
 .nav__2 select{
     background-color: rgb(151, 151, 151);
