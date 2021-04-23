@@ -45,7 +45,7 @@ body {
     padding: 5px ;
 }
 .slide_container{
-    background-color: grey;
+    background-color: #808080;
     
 }
 .display__container img{
@@ -105,20 +105,41 @@ body {
 }
 .contenedor__info{
     display: inline-block;
-    border:#ffffff solid 1px;
+    border: rgb(189, 189, 189) solid 1px;
     height: auto;
     text-align: left;
+}
+.contenedor__img{
+    background-color:#808080;
+
 }
 .titulo__h3{
     padding-bottom: 20px;
 }
 .descripcion{
-    border: orangered solid 1px;
     padding-bottom: 80px;
-    
 }
 .actualizacion{
-    border: green solid 1px;
-    background-color: #d1d1d1;
-    padding-bottom: 40px;
+    border: rgb(189, 189, 189) solid 1px;
+    background-color: #eeebeb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer{
+    background-color:#494848 ;
+    width: auto;
+    height: 200px;
+}
+.contain__footer{
+    display: inline-block;
+    margin: 30px ;
+}
+.footer__h3{
+    display: inline-block;
+    background-color: #3d7ed8;
+    color: white;
+    border-radius: 5px;
+}
+.footer p{
+    color:  rgb(80, 164, 233);
 }
