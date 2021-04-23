@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(184, 184, 184);
+    background-color: rgb(248, 245, 245);
 }
 .nav__1{
     background-color:#494848;
@@ -44,6 +44,10 @@ body {
     background-color: rgb(255, 255, 255);
     padding: 5px ;
 }
+.slide_container{
+    background-color: grey;
+    
+}
 .display__container img{
     height: 70vh;
     justify-content: space-evenly;
@@ -78,38 +82,43 @@ body {
     right: 10px;
     transform: translate(0%-50%);
 }
+#box__container{
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 #titulo__2{
     background-color:#494848;
     width: 300px;
     height: 50px;
     padding: 10px;
     border-radius: 5px;
-    text-align: center;
     margin:auto;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 .conteiner_foto{
-    border: red solid 4px;
+    margin: 10px;
     width: 100%;
     height: auto;
-    margin: auto;
 }
-.contenedor__1{
+.contenedor__info{
     display: inline-block;
-    border: rgb(55, 10, 218) solid 4px;
+    border:#ffffff solid 1px;
     height: auto;
-    margin: auto;
+    text-align: left;
 }
-.contenedor__2{
-    display: inline-block;
-    border: rgb(13, 248, 111) solid 4px;
-    height: auto;
-    margin: auto;
-   
+.titulo__h3{
+    padding-bottom: 20px;
 }
-.contenedor__3{
-    display: inline-block;
-    border: rgb(203, 236, 82) solid 4px;
-    height: auto;
-    margin: auto; 
+.descripcion{
+    border: orangered solid 1px;
+    padding-bottom: 80px;
+    
+}
+.actualizacion{
+    border: green solid 1px;
+    background-color: #d1d1d1;
+    padding-bottom: 40px;
 }
